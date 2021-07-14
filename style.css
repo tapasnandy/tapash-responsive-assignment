@@ -176,12 +176,12 @@ h4{
         height: 102px;
     }
     .footer-social{
-        padding-left: 1px;
+        padding-left: 0.5px;
     }
     .social-media-icon{
         font-size: 25px;
         color: grey;
-        margin-left: 1px;    
+        margin-left: 0.5px;    
     }
     h4{
         margin-left: 80px;
