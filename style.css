@@ -129,11 +129,20 @@ main{
     
     
     /* -- for main area -- */
+    
     .player-blogs{
         grid-template-columns: 1fr;
         
-        margin-left: 25px;
+        margin-left: 15px;
+    }
+    .blog{
+        margin-left: 55px;
     } 
+    .blog .player-image .player-info{
+        width: 330px;
+        height: 474px;
+        padding-left: 10px;
+    }
     
 
     
