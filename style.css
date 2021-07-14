@@ -108,7 +108,7 @@ main{
 @media (max-width: 688px) {
     /* -- for top area -- */
     .header-container{
-        height: 695pxgit;
+        height: 695px;
     }
     .header-elements{
         flex-direction: column;
@@ -129,14 +129,17 @@ main{
     
     
     /* -- for main area -- */
-    
+    .player-container{
+        justify-content: center;
+        align-items: center;
+    }
     .player-blogs{
         grid-template-columns: 1fr;
         
         margin-left: 15px;
     }
     .blog{
-        margin-left: 55px;
+        margin-left: 15px;
     } 
     .blog .player-image .player-info{
         width: 330px;
