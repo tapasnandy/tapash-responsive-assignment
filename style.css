@@ -101,6 +101,13 @@ main{
 
 
 
+/* ------------------------ footer area style ------------------- */
+
+.socal-media-icon{
+    
+}
+
+
 
 
 /* -------------------------- media query styles ---------------- */
@@ -138,9 +145,7 @@ main{
         
         margin-left: 15px;
     }
-    .blog{
-        margin-left: 15px;
-    } 
+     
     .blog .player-image .player-info{
         width: 330px;
         height: 474px;
