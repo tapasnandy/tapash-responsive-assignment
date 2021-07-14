@@ -109,7 +109,7 @@ main{
     display: flex;
     justify-content:center;
 
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .live-title h3{
     text-align:center;
@@ -195,7 +195,8 @@ h4{
     /* -- for live watch area -- */
 
     iframe{
-        width: 420px;
+        width: 350px;
+        height: 300px;
         
     }
 
