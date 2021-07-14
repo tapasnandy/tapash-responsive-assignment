@@ -101,6 +101,24 @@ main{
 
 
 
+
+
+/* ------------------------ watch live section styles ------------------ */
+
+.watch-live{
+    display: flex;
+    justify-content:center;
+
+    margin-top: 50px;
+}
+.live-title h3{
+    text-align:center;
+    font-size: 30px;
+}
+
+
+
+
 /* ------------------------ footer area style ------------------- */
 footer{
     display: flex;
