@@ -102,9 +102,17 @@ main{
 
 
 /* ------------------------ footer area style ------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.social-media-icon{
+    font-size: 30px;
+    color: grey;
+    
+    
+}
 
 
 
@@ -135,13 +143,14 @@ main{
     
     /* -- for main area -- */
     .player-container{
+        display: flex;
         justify-content: center;
-        align-items: center;
+        
     }
     .player-blogs{
         grid-template-columns: 1fr;
         
-        margin-left: 20px;
+        
     }
      
     .blog .player-image .player-info{
