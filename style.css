@@ -203,17 +203,23 @@ h4{
 
 
     /* -- for foorter area -- */
+    .footer{
+        display:flex;
+    }
     .footer-image img{
         width: 290px;
         height: 102px;
     }
     .footer-social{
         padding-left: 0.5px;
+        text-align: center;
+        
     }
     .social-media-icon{
         font-size: 25px;
         margin: 0;
         padding: 0;   
+        
     }
     h4{
         margin-left: 80px;
