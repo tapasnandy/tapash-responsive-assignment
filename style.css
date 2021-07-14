@@ -155,15 +155,11 @@ h4{
     
     
     /* -- for main area -- */
-    .player-container{
-        display: flex;
-        justify-content: center;
-        
-    }
+    
     .player-blogs{
         grid-template-columns: 1fr;
         
-        margin-left: 15px;
+        margin-left: 20px;
     }
      
     .blog .player-image .player-info{
@@ -180,12 +176,12 @@ h4{
         height: 102px;
     }
     .footer-social{
-        padding-left: 5px;
+        padding-left: 1px;
     }
     .social-media-icon{
         font-size: 25px;
         color: grey;
-        margin-left: 10px;    
+        margin-left: 1px;    
     }
     h4{
         margin-left: 80px;
