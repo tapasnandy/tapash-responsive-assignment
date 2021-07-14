@@ -103,6 +103,32 @@ main{
 
 
 
+/* --------------------------- field touch game styles -------------------- */
+.field-touch-game{
+    display: flex;
+    justify-content:center;
+
+    margin-bottom: 50px;
+}
+.game-background img{
+    width: 512px;
+    height: 350px;
+}
+.ball img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -200px;
+}
+.game-container:hover .ball{
+    transform:translateX(300px);
+}
+
+
+
+
+
+
 /* ------------------------ watch live section styles ------------------ */
 
 .watch-live{
@@ -111,7 +137,7 @@ main{
 
     margin-bottom: 50px;
 }
-.live-title h3{
+ h3{
     text-align:center;
     font-size: 30px;
 }
@@ -189,7 +215,19 @@ h4{
         height: 474px;
         padding-left: 10px;
     }
-    
+
+
+
+/* field touch game area  */
+    .game-background img{
+        width: 350px;
+        height: 220px;
+    }
+    .game-container:hover .ball{
+        transform:translateX(250px);
+    }
+
+
 
 
     /* -- for live watch area -- */
