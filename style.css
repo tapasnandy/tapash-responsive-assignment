@@ -163,7 +163,7 @@ h4{
     .player-blogs{
         grid-template-columns: 1fr;
         
-        
+        margin-left: 15px;
     }
      
     .blog .player-image .player-info{
