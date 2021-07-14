@@ -173,9 +173,10 @@ h4{
 
 
 
-/* -------------------------- media query styles ---------------- */
-/* -------------------------- media query styles ---------------- */
-/* -------------------------- media query styles ---------------- */
+/* -------------------------- media query styles for mobile---------------- */
+/* -------------------------- media query styles for mobile---------------- */
+/* -------------------------- media query styles for mobile---------------- */
+
 
 
 
@@ -208,6 +209,99 @@ h4{
         grid-template-columns: 1fr;
         
         margin-left: 20px;
+    }
+     
+    .blog .player-image .player-info{
+        width: 330px;
+        height: 474px;
+        padding-left: 10px;
+    }
+
+
+
+/* field touch game area  */
+    .game-background img{
+        width: 350px;
+        height: 220px;
+    }
+    .game-container:hover .ball{
+        transform:translateX(250px);
+    }
+
+
+
+
+    /* -- for live watch area -- */
+
+    iframe{
+        width: 350px;
+        height: 300px;
+        
+    }
+
+
+
+    /* -- for foorter area -- */
+    .footer{
+        display:flex;
+    }
+    .footer-image img{
+        width: 290px;
+        height: 102px;
+    }
+    .footer-social{
+        padding-left: 0.5px;
+        text-align: center;
+        
+    }
+    .social-media-icon{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;   
+        
+    }
+    h4{
+        margin-left: 80px;
+    }
+}
+
+
+/* -------------------------- media query styles for tablet---------------- */
+/* -------------------------- media query styles for tablet---------------- */
+/* -------------------------- media query styles for tablet---------------- */
+
+
+
+
+@media (min-width: 788px) and (max-width:1000px){
+    /* -- for top area -- */
+    .header-container{
+        height: 695px;
+    }
+    .header-elements{
+        flex-direction: column;
+
+    }
+    .header-title h2,a{
+        font-size: 36px;  
+        padding-right: 66px;
+        padding-top: 50px;  
+        margin-left: 30px;
+    }
+    .top-area-image{
+        margin-top: 50px;
+        margin-left: 150px;
+        width: 329px;
+        height: 259px;
+    }
+    
+    
+    /* -- for main area -- */
+    
+    .player-blogs{
+        grid-template-columns: 1fr 1fr;
+        
+        margin-left: 30px;
     }
      
     .blog .player-image .player-info{
