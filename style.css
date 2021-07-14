@@ -21,7 +21,7 @@ header{
     
 }
 
-.header-title h2,a{
+.header-title h2,.button{
     font-size: 54px;
     color: white;
     padding-top: 154px;
@@ -103,9 +103,7 @@ main{
 
 /* ------------------------ footer area style ------------------- */
 
-.socal-media-icon{
-    
-}
+
 
 
 
@@ -143,7 +141,7 @@ main{
     .player-blogs{
         grid-template-columns: 1fr;
         
-        margin-left: 35px;
+        margin-left: 20px;
     }
      
     .blog .player-image .player-info{
