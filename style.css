@@ -148,6 +148,10 @@ h4{
 
 
 /* -------------------------- media query styles ---------------- */
+/* -------------------------- media query styles ---------------- */
+/* -------------------------- media query styles ---------------- */
+
+
 
 @media (max-width: 688px) {
     /* -- for top area -- */
@@ -186,6 +190,15 @@ h4{
         padding-left: 10px;
     }
     
+
+
+    /* -- for live watch area -- */
+
+    iframe{
+        width: 420px;
+        
+    }
+
 
 
     /* -- for foorter area -- */
